@@ -1,0 +1,184 @@
+{
+    "art": [
+        "art",
+        "art museum",
+        "painting",
+        "contemporary art"
+    ],
+    "barbecue": [
+        "barbecue",
+        "barbecue grill",
+        "barbecue outside",
+        "meat skewer"
+    ],
+    "bathroom": [
+        "bathroom",
+        "small bathroom",
+        "shower",
+        "showering"
+    ],
+    "beach": [
+        "beach",
+        "beach ocean",
+        "beach people",
+        "beach friends",
+        "surfboard beach",
+        "beach kite"
+    ],
+    "bedroom": [
+        "bedroom small",
+        "sleeping room",
+        "bedroom evening",
+        "bedroom night",
+        "bedroom pillow"
+    ],
+    "beer": [
+        "beer",
+        "beer with friends",
+        "beer party"
+    ],
+    "board_games": [
+        "board games",
+        "board games box",
+        "playing board games",
+        "card games"
+    ],
+    "cleaning": [
+        "cleaning",
+        "cleaning home",
+        "dirty dishes",
+        "cleaning vacuum"
+    ],
+    "coffee": [
+        "coffee",
+        "coffee morning",
+        "tea",
+        "coffee maker"
+    ],
+    "cooking": [
+        "cooking",
+        "home cooking",
+        "kicthen cook",
+        "open fridge"
+    ],
+    "flight": [
+        "Airplane",
+        "Airport",
+        "airport hall"
+    ],
+    "france": [
+        "eiffel tower",
+        "french cafe",
+        "french bakery",
+        "french bread",
+        "french cheese",
+        "french wine"
+    ],
+    "garden": [
+        "gardening",
+        "garden backyard",
+        "house garden",
+        "gardening equipment"
+    ],
+    "gym": [
+        "gym",
+        "workout equipment",
+        "gym selfie",
+        "gym room",
+        "weights"
+    ],
+    "hot": [
+        "condom",
+        "sex toy",
+        "underwear on the floor"
+    ],
+    "italy": [
+        "pizza",
+        "pasta",
+        "colosseum rome",
+        "pisa tower"
+    ],
+    "japan": [
+        "sushi",
+        "japanese architecture"
+    ],
+    "metro": [
+        "paris subway",
+        "metro people",
+        "in a subway",
+        "in a bus"
+    ],
+    "movie": [
+        "movie poster",
+        "movie theater",
+        "movie on tv"
+    ],
+    "nature": [
+        "nature",
+        "hiking",
+        "forest",
+        "nature walk"
+    ],
+    "party": [
+        "party",
+        "home party",
+        "party drinks",
+        "party friends",
+        "home party late"
+    ],
+    "piano": [
+        "piano",
+        "sheet music book",
+        "playing piano",
+        "home piano"
+    ],
+    "pool": [
+        "swimming pool",
+        "swimming pool small",
+        "swimming pool residential",
+        "pool towel"
+    ],
+    "rainy": [
+        "rain",
+        "rainy day",
+        "rain umbrella",
+        "rain on window",
+        "rain water"
+    ],
+    "reading": [
+        "book",
+        "books",
+        "book reading",
+        "home library",
+        "reading ebook",
+        "magazines"
+    ],
+    "running": [
+        "running",
+        "running shoes",
+        "running gear",
+        "running equipment"
+    ],
+    "sport": [
+        "amateur soccer",
+        "badminton",
+        "padel tennis",
+        "tennis"
+    ],
+    "train": [
+        "in a train",
+        "train view window",
+        "train seat window",
+        "train station"
+    ],
+    "traveling": [
+        "travel luggage",
+        "packing bags"
+    ],
+    "working": [
+        "working",
+        "computer",
+        "work meeting",
+        "work office"
+    ]
+}
