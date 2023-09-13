@@ -1,0 +1,154 @@
+{
+    "art": [
+        "Art exhibition",
+        "Paint tools"
+    ],
+    "barbecue": [
+        "Barbecue",
+        "Barbecue grill"
+    ],
+    "bathroom": [
+        "Bathroom",
+        "Bathroom accessory",
+        "Bathroom sink",
+        "Shower"
+    ],
+    "beach": [
+        "Beach",
+        "Beach towel"
+    ],
+    "bedroom": [
+        "Bed",
+        "Bedroom",
+        "Sleep"
+    ],
+    "beer": [
+        "Beer",
+        "Beer glass",
+        "Beer bottle"
+    ],
+    "board_games": [
+        "Board game",
+        "Card game"
+    ],
+    "cleaning": [
+        "Cleanliness",
+        "Household cleaning supply",
+        "Vacuum cleaner",
+        "Cleaner"
+    ],
+    "coffee": [
+        "Coffee cup",
+        "Coffee (drink)",
+        "Tea",
+        "Drip coffee maker"
+    ],
+    "cooking": [
+        "Cooking",
+        "Cookware and bakeware",
+        "Cook",
+        "Kitchen appliance",
+        "Kitchen utensil",
+        "Kitchen",
+        "Kitchen stove",
+        "Kitchenware",
+        "Refrigerator"
+    ],
+    "flight": [
+        "Airplane",
+        "Airport"
+    ],
+    "france": [
+        "Bread",
+        "Bakery"
+    ],
+    "garden": [
+        "Garden",
+        "Botanical garden",
+        "Gardening",
+        "Gardener"
+    ],
+    "gym": [
+        "Gym",
+        "Strength training",
+        "Weight training",
+        "Bodybuilding",
+        "Weights"
+    ],
+    "hot": [
+        "Sex toy"
+    ],
+    "italy": [
+        "Pizza",
+        "Pasta"
+    ],
+    "japan": [
+        "Sushi",
+        "Japanese architecture"
+    ],
+    "metro": [
+        "Metro",
+        "Metro station",
+        "Bus"
+    ],
+    "movie": [
+        "Movie",
+        "Movie theater"
+    ],
+    "nature": [
+        "Nature",
+        "Hiking",
+        "Hiking equipment",
+        "Forest"
+    ],
+    "party": [
+        "Party",
+        "Alcoholic beverage",
+        "Alcohol",
+        "Bar"
+    ],
+    "piano": [
+        "Piano",
+        "Sheet music"
+    ],
+    "pool": [
+        "Swimming pool",
+        "Swimming",
+        "Swimwear"
+    ],
+    "rainy": [
+        "Rain"
+    ],
+    "reading": [
+        "Book",
+        "E-book readers",
+        "Library",
+        "Magazine"
+    ],
+    "running": [
+        "Long-distance running",
+        "Running",
+        "Jogging",
+        "Running shoe"
+    ],
+    "sport": [
+        "Sports equipment",
+        "Sports"
+    ],
+    "train": [
+        "Train",
+        "Train station"
+    ],
+    "traveling": [
+        "Travel",
+        "Luggage and bags",
+        "packing bags"
+    ],
+    "working": [
+        "Job",
+        "Office supplies",
+        "Office equipment",
+        "White-collar worker",
+        "Computer"
+    ]
+}

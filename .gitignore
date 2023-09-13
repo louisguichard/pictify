@@ -1,1 +1,3 @@
-data/
+.DS_Store
+research/data/
+research/notebooks/Data Collection/open_images.csv
