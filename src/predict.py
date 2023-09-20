@@ -27,5 +27,8 @@ def predict(image):
     # Format output
     output = pd.DataFrame(predictions, index=LABELS, columns=["Probability"])
     output = output.sort_values(by="Probability", ascending=False)
+    output["Probability"] = output["Probability"].apply(
+        lambda proba: f"{round(100 * proba)}%"
+    )
 
     return output
