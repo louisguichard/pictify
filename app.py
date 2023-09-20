@@ -1,4 +1,4 @@
-""" This module is to deisgn the streamlit app """
+""" This module is to design the streamlit app """
 
 import json
 import streamlit as st
