@@ -2,41 +2,7 @@
 
 from PIL import Image
 import streamlit as st
-from data.paths import PHOTO_EXAMPLES
-
-
-LABELS = [
-    "Art",
-    "Barbecue",
-    "Bathroom",
-    "Beach",
-    "Bedroom",
-    "Beer",
-    "Board Games",
-    "Cleaning",
-    "Coffee",
-    "Cooking",
-    "Flight",
-    "France",
-    "Garden",
-    "Gym",
-    "Hot",
-    "Italy",
-    "Japan",
-    "Metro",
-    "Movie",
-    "Nature",
-    "Party",
-    "Piano",
-    "Pool",
-    "Rainy",
-    "Reading",
-    "Running",
-    "Sport",
-    "Train",
-    "Traveling",
-    "Working",
-]
+from data.constants import PHOTO_EXAMPLES
 
 
 @st.cache_data(show_spinner=False)

@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image, ImageOps
 from src.predict import predict
 from src.utils import from_url_to_embed, load_example
-from data.paths import PHOTO_EXAMPLES, PLAYLIST_URLS
+from data.constants import PHOTO_EXAMPLES, PLAYLIST_URLS
 
 
 st.set_page_config(page_title="Pictify", page_icon="🎶")
@@ -20,9 +20,6 @@ hide_menu = """
 </style>
 """
 st.markdown(hide_menu, unsafe_allow_html=True)
-
-
-how_it_works = "Pictify is based on a cutting-edge Deep Learning model called EfficientNet. It's a convolutional neural network specially designed for image processing. It has been trained (or more precisely 'fine-tuned') to recognize a large number of topics such as cooking, running or traveling. This is what enables Pictify to make sense of your picture and recommend the perfect playlist for the situation!"
 
 
 def get_playlist(image):
@@ -41,6 +38,14 @@ def get_playlist(image):
 
     # How it works
     with st.expander("How it works?"):
+        how_it_works = """
+        Pictify is based on a cutting-edge Deep Learning model called EfficientNet. 
+        It's a convolutional neural network specially designed for image processing. 
+        It has been trained (or more precisely 'fine-tuned') to recognize 
+        a large number of topics such as cooking, running or traveling. 
+        This is what enables Pictify to make sense of your picture 
+        and recommend the perfect playlist for the situation!
+        """
         st.write(how_it_works)
         st.write("Here are the themes identified in your photo:")
         st.dataframe(predictions.head(3))  # show top-3
@@ -62,7 +67,7 @@ footer = """
 <script>
 const streamlitDoc = window.parent.document;
 document.addEventListener("DOMContentLoaded", function(event){
-        streamlitDoc.getElementsByTagName("footer")[0].innerHTML = "Made by <a href='https://github.com/louisguichard' target='_blank'>Louis Guichard</a>";
+        streamlitDoc.getElementsByTagName("footer")[0].innerHTML = "Made by <a href='https://github.com/louisguichard/pictify' target='_blank'>Louis Guichard</a>";
     });
 </script>
 """

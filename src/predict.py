@@ -6,7 +6,7 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.utils import img_to_array
 from tensorflow.keras.applications.efficientnet_v2 import preprocess_input
-from src.utils import LABELS
+from data.constants import PLAYLIST_URLS
 
 
 @st.cache_resource
@@ -32,7 +32,9 @@ def predict(image):
     predictions = model.predict(processed_image)[0]
 
     # Format output
-    output = pd.DataFrame(predictions, index=LABELS, columns=["Probability"])
+    output = pd.DataFrame(
+        predictions, index=PLAYLIST_URLS.keys(), columns=["Probability"]
+    )
     output = output.sort_values(by="Probability", ascending=False)
     output["Probability"] = output["Probability"].apply(
         lambda proba: f"{round(100 * proba)}%"
