@@ -1,3 +1,5 @@
 .DS_Store
+__pycache__
 research/data/
 research/notebooks/Data Collection/open_images.csv
+research/models/**.h5
