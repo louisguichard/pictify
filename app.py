@@ -1,14 +1,9 @@
 """ This module is to design the streamlit app """
 
-import json
 import streamlit as st
 from PIL import Image, ImageOps
 from src.predict import predict
-from src.utils import from_url_to_embed
-
-
-with open("src/playlists.json") as f:
-    playlists = json.load(f)
+from src.utils import from_url_to_embed, load_playlists
 
 
 st.set_page_config(page_title="Pictify", page_icon="🎶")
@@ -32,6 +27,7 @@ if uploaded_file:
     predictions = predict(image)
 
     # Show best playlist
+    playlists = load_playlists()
     st.components.v1.iframe(
         src=from_url_to_embed(playlists[predictions.index[0]]),
         height=352,
