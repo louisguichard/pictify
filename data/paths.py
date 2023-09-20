@@ -1,0 +1,48 @@
+""" This module is to store paths to photo examples and playlist urls. """
+
+
+PHOTO_EXAMPLES = {
+    "No choice": None,
+    "Beach sunset": "beach_sunset.jpg",
+    "Beers": "beers.jpg",
+    "Dad cooking": "dad_cooking.jpg",
+    "French restaurant": "french_restaurant.jpg",
+    "Home pizza": "home_pizza.jpg",
+    "Mom hiking": "mom_hiking.jpg",
+    "Morning coffee": "morning_coffee.jpg",
+    "Running shoes": "running_shoes.jpg",
+    "Working": "working.jpg",
+}
+
+PLAYLIST_URLS = {
+    "Art": "https://open.spotify.com/playlist/4sImMGba2en9JSfhUKUy07?si=b49c763648194ca3",
+    "Barbecue": "https://open.spotify.com/playlist/37i9dQZF1DWVAArCxuIRGQ?si=0ab053436f8547e4",
+    "Bathroom": "https://open.spotify.com/playlist/6ldTbNCKyQxM3JHBmV9qY2?si=f9dada0bae6d4428",
+    "Beach": "https://open.spotify.com/playlist/37i9dQZF1DX4Y4RhrZqHhr?si=7b9a016f7fc04417",
+    "Bedroom": "https://open.spotify.com/playlist/37i9dQZF1DWStLt4f1zJ6I?si=e4c17fc3f9f74402",
+    "Beer": "https://open.spotify.com/playlist/0BAY6zHepLR6v3t6KqyLsc?si=cceefd49ea334d67",
+    "Board_games": "https://open.spotify.com/playlist/1cGQJLD2EQrzNtKDacxur5?si=524b546e58c84a54",
+    "Cleaning": "https://open.spotify.com/playlist/2lB5UHNDgcQlSxafzqlUdq?si=7a916ddc7d5d4a48",
+    "Coffee": "https://open.spotify.com/playlist/37i9dQZF1DX1uaml3UXYLk?si=15c9c3820da6429d",
+    "Cooking": "https://open.spotify.com/playlist/6qOYZu0BVD7NB7YEjeeuiA?si=43650d8eeba74b63",
+    "Flight": "https://open.spotify.com/playlist/09JjqtqLDdXcoSfwTULBOp?si=41dfcad91d284257",
+    "France": "https://open.spotify.com/playlist/37i9dQZF1DX0ZO4kBlpsIH?si=d0b297cb8b88423b",
+    "Garden": "https://open.spotify.com/playlist/09o5nUsgkWhnCV94yqzPFY?si=11dba4b86ccc40fc",
+    "Gym": "https://open.spotify.com/playlist/5cAwvaSXeNSrSbmrOUSBzo?si=fd07881be01e4db2",
+    "Hot": "https://open.spotify.com/playlist/2fJlEP0McwaTMeUQKoTeoF?si=c0c0d91d1b15498f",
+    "Italy": "https://open.spotify.com/playlist/5o2bKCUZLsAnwPTX7rPPFT?si=438cb1286d31496a",
+    "Japan": "https://open.spotify.com/playlist/37i9dQZF1DXdbRLJPSmnyq?si=0bec6e95410b4547",
+    "Metro": "https://open.spotify.com/playlist/7d6HvB3zYSVA4iLyE79t6F?si=235502896ca84e88",
+    "Movie": "https://open.spotify.com/playlist/37i9dQZF1DX1tz6EDao8it?si=77d15ae8100947f1",
+    "Nature": "https://open.spotify.com/playlist/37i9dQZF1DX2DjEOgyULQF?si=85bd02cf0d1244f5",
+    "Party": "https://open.spotify.com/playlist/6lre0An0V7YFE1HJUnMgnE?si=7528b844139c4d4d",
+    "Piano": "https://open.spotify.com/playlist/2q7U9Dh7buTnrwHEWxcxiq?si=12b55ba8ebe84fde",
+    "Pool": "https://open.spotify.com/playlist/0SFDM0ZVjDnEpYnCtRXH6s?si=914e8a93146c4c72",
+    "Rainy": "https://open.spotify.com/playlist/3r82Jvzw3SSGKKiKf3dXMM?si=875ae6531568491b",
+    "Reading": "https://open.spotify.com/playlist/37i9dQZF1DX51qI8MDEx8N?si=41ef2c11575a4671",
+    "Running": "https://open.spotify.com/playlist/5ymkuBk3C1Iu4KTdJBK9vy?si=ea444d6cc23b4dce",
+    "Sport": "https://open.spotify.com/playlist/22wbHwDJ1l4otMV0oejUQ8?si=f02b905f7c384f72",
+    "Train": "https://open.spotify.com/playlist/2JPOGsQ9eplwh8YTVYmLlJ?si=404d84e9ca974bf8",
+    "Traveling": "https://open.spotify.com/playlist/1u4S6dmWSwckJQ4tPTdp3x?si=8676928fe60e4d99",
+    "Working": "https://open.spotify.com/playlist/1KDVSG34lOV9O753gT3AeB?si=a5aebebc414b4b7b",
+}

@@ -1,7 +1,8 @@
 """ This module is a set of helpers for all others modules """
 
-import json
+from PIL import Image
 import streamlit as st
+from data.paths import PHOTO_EXAMPLES
 
 
 LABELS = [
@@ -38,11 +39,11 @@ LABELS = [
 ]
 
 
-@st.cache_resource
-def load_playlists(show_spinner=False):
-    with open("src/playlists.json") as f:
-        playlists = json.load(f)
-    return playlists
+@st.cache_data(show_spinner=False)
+def load_example(choice):
+    photo = PHOTO_EXAMPLES[choice]
+    image = Image.open("data/examples/" + photo)
+    return image
 
 
 def from_url_to_embed(playlist_url):
