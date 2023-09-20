@@ -1,0 +1,155 @@
+{
+    "0": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "ResNet50",
+        "Parameters": "23.6M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 7,
+        "Running Time": 180.0,
+        "Accuracy": 0.7499342278
+    },
+    "1": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "ResNet50V2",
+        "Parameters": "23.6M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 5,
+        "Running Time": 116.0,
+        "Accuracy": 0.7413838464
+    },
+    "2": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "ResNet50",
+        "Parameters": "23.6M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 8,
+        "Running Time": 212.0,
+        "Accuracy": 0.755590634
+    },
+    "3": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "EfficientNetV2B0",
+        "Parameters": "6.0M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 8,
+        "Running Time": 126.0,
+        "Accuracy": 0.7959747435
+    },
+    "4": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "EfficientNetV2S",
+        "Parameters": "20.4M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 12,
+        "Running Time": 396.0,
+        "Accuracy": 0.7971586425
+    },
+    "5": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "EfficientNetV2M",
+        "Parameters": "53.2M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.2,
+        "Max Epochs": 20,
+        "Best Epoch": 11,
+        "Running Time": 661.0,
+        "Accuracy": 0.803735859
+    },
+    "6": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "None",
+        "Model Type": "EfficientNetV2B0",
+        "Parameters": "6.0M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.3,
+        "Max Epochs": 20,
+        "Best Epoch": 10,
+        "Running Time": 122.0,
+        "Accuracy": 0.8039989476
+    },
+    "7": {
+        "Image Size": [
+            300,
+            300
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "None",
+        "Model Type": "EfficientNetV2S",
+        "Parameters": "20.4M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.3,
+        "Max Epochs": 20,
+        "Best Epoch": 8,
+        "Running Time": 579.0,
+        "Accuracy": 0.801762694
+    },
+    "8": {
+        "Image Size": [
+            500,
+            500
+        ],
+        "Batch Size": 32,
+        "Augmentation Level": "Low",
+        "Model Type": "EfficientNetV2B0",
+        "Parameters": "6.0M",
+        "Learning Rate": 0.001,
+        "Dense Layer": false,
+        "Dropout Layer": 0.3,
+        "Max Epochs": 20,
+        "Best Epoch": 8,
+        "Running Time": 312.0,
+        "Accuracy": 0.8008418837
+    }
+}

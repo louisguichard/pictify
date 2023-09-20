@@ -1,10 +1,10 @@
 # Data Collection
 
-Two methods are used to collect data: **Google Image web scraping** and **Open Images dataset queries**.
+Two methods were used to collect data: **Google Image web scraping** and **Open Images dataset queries**.
 
 The first method allows us to make precise searches, but results are sometimes irrelevant. The second method provides better quality data (fewer false positives), but the number of available labels limits our search possibilities.
 
-A total of 37,852 images came from Google Image web-scraping and 81,558 from the Open Images dataset, but categories with large numbers of images were under-sampled.
+A total of 37,852 images came from Google Image web-scraping and 81,558 from the Open Images dataset, but categories with large numbers of images have been under-sampled.
 
 The number of images per category and per sample is presented in the table below. 
 
