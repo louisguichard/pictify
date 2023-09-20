@@ -13,6 +13,15 @@ st.write(
     "Take a photo of what's around you and let Pictify find the perfect playlist for you!"
 )
 
+# Hide default Streamlit menu
+hide_menu = """
+<style>
+#MainMenu {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_menu, unsafe_allow_html=True)
+
+
 how_it_works = "Pictify is based on a cutting-edge Deep Learning model called EfficientNet. It's a convolutional neural network specially designed for image processing. It has been trained (or more precisely 'fine-tuned') to recognize a large number of topics such as cooking, running or traveling. This is what enables Pictify to make sense of your picture and recommend the perfect playlist for the situation!"
 
 
@@ -47,3 +56,14 @@ else:
     if choice != "No choice":
         image = load_example(choice)
         get_playlist(image)
+
+# Customize footer
+footer = """
+<script>
+const streamlitDoc = window.parent.document;
+document.addEventListener("DOMContentLoaded", function(event){
+        streamlitDoc.getElementsByTagName("footer")[0].innerHTML = "Made by <a href='https://github.com/louisguichard' target='_blank'>Louis Guichard</a>";
+    });
+</script>
+"""
+st.components.v1.html(footer)
