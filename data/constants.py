@@ -9,7 +9,6 @@ PHOTO_EXAMPLES = {
     "French restaurant": "french_restaurant.jpg",
     "Home pizza": "home_pizza.jpg",
     "Mom hiking": "mom_hiking.jpg",
-    "Morning coffee": "morning_coffee.jpg",
     "Running shoes": "running_shoes.jpg",
     "Working": "working.jpg",
 }
@@ -21,7 +20,7 @@ PLAYLIST_URLS = {
     "Beach": "https://open.spotify.com/playlist/37i9dQZF1DX4Y4RhrZqHhr?si=7b9a016f7fc04417",
     "Bedroom": "https://open.spotify.com/playlist/37i9dQZF1DWStLt4f1zJ6I?si=e4c17fc3f9f74402",
     "Beer": "https://open.spotify.com/playlist/0BAY6zHepLR6v3t6KqyLsc?si=cceefd49ea334d67",
-    "Board_games": "https://open.spotify.com/playlist/1cGQJLD2EQrzNtKDacxur5?si=524b546e58c84a54",
+    "Board Games": "https://open.spotify.com/playlist/1cGQJLD2EQrzNtKDacxur5?si=524b546e58c84a54",
     "Cleaning": "https://open.spotify.com/playlist/2lB5UHNDgcQlSxafzqlUdq?si=7a916ddc7d5d4a48",
     "Coffee": "https://open.spotify.com/playlist/37i9dQZF1DX1uaml3UXYLk?si=15c9c3820da6429d",
     "Cooking": "https://open.spotify.com/playlist/6qOYZu0BVD7NB7YEjeeuiA?si=43650d8eeba74b63",
