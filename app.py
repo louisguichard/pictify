@@ -14,12 +14,20 @@ st.write(
 )
 
 # Hide default Streamlit menu
-hide_menu = """
+# hide_menu = """
+# <style>
+# #MainMenu {visibility: hidden;}
+# </style>
+# """
+# st.markdown(hide_menu, unsafe_allow_html=True)
+
+hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
 </style>
 """
-st.markdown(hide_menu, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 def get_playlist(image):
@@ -49,6 +57,9 @@ def get_playlist(image):
         st.write(how_it_works)
         st.write("Here are the themes identified in your photo:")
         st.dataframe(predictions.head(3))  # show top-3
+        st.write(
+            "Find out more on the [Github](https://github.com/louisguichard/pictify) repository!"
+        )
 
 
 uploaded_file = st.file_uploader("Take a snap!", help="Photos are not saved.")
@@ -61,14 +72,3 @@ else:
     if choice != "No choice":
         image = load_example(choice)
         get_playlist(image)
-
-# Customize footer
-footer = """
-<script>
-const streamlitDoc = window.parent.document;
-document.addEventListener("DOMContentLoaded", function(event){
-        streamlitDoc.getElementsByTagName("footer")[0].innerHTML = "Made by <a href='https://github.com/louisguichard/pictify' target='_blank'>Louis Guichard</a>";
-    });
-</script>
-"""
-st.components.v1.html(footer)
