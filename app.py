@@ -62,7 +62,9 @@ def get_playlist(image):
         )
 
 
-uploaded_file = st.file_uploader("Take a snap!", help="Photos are not saved.")
+uploaded_file = st.file_uploader(
+    "Take a snap!", help="Photos are not saved.", type=["png", "jpg", "jpeg"]
+)
 
 if uploaded_file:
     image = Image.open(uploaded_file)
