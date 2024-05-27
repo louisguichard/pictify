@@ -6,8 +6,6 @@ Pictify is a tiny Computer Vision project whose aim is to recommend a music play
 
 If you want to give a try to the application, please header [here](https://pictify.louisguichard.fr/)!
 
-
-## Screenshot 
 <p align="center">
-    <img src="screenshot.png" width="60%" style="margin: 20px;">
+    <img src="screenshot.png">
 </p>
