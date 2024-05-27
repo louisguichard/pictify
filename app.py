@@ -1,4 +1,4 @@
-""" This module is to design the streamlit app """
+"""This module is to design the streamlit app"""
 
 import streamlit as st
 from PIL import Image, ImageOps
@@ -12,14 +12,6 @@ st.image("logo.png", use_column_width=True)
 st.write(
     "Take a photo of what's around you and let Pictify find the perfect playlist for you!"
 )
-
-# Hide default Streamlit menu
-# hide_menu = """
-# <style>
-# #MainMenu {visibility: hidden;}
-# </style>
-# """
-# st.markdown(hide_menu, unsafe_allow_html=True)
 
 hide_streamlit_style = """
 <style>
